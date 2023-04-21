@@ -92,13 +92,11 @@
     * [LSM303DLHC](https://www.st.com/resource/en/datash...)
     * [F3Discovery electrical schematics](https://docs.rs-online.com/5192/09007...)
 
-
     * [about I2C on docs.rust-embedded.org](https://docs.rust-embedded.org/discovery/f3discovery/14-i2c/index.html)  
 
     * [example on youtube](https://www.youtube.com/watch?v=j3wlSGP5Sw8&list=PLL2SCPK5xSRWBPj-nKOVYIhxRw7C4kYeI&index=6)  
 
-
-    * Master -> Slave  
+    * Master sending to the Slave  
       If the master wants to send data to the slave:
 
       ![I2C Master send to Slave diagram](https://upload.wikimedia.org/wikipedia/commons/3/3e/I2C.svg)  
@@ -113,9 +111,16 @@
         6. Repeat steps 4 and 5 zero or more times
         7. M: Broadcast STOP OR (broadcast RESTART and go back to (2))
 
-    * Master <- Slave  
+    * Master reading from the Slave  
       If the master wants to read data from the slave:
-      ![I2C Master read from Slave diagram](https://upload.wikimedia.org/wikipedia/commons/3/3e/I2C.svg)
+      ![I2C Master read from Slave diagram](https://upload.wikimedia.org/wikipedia/commons/3/3e/I2C.svg)  
+        1. M: Broadcast START
+        2. M: Broadcast slave address (7 bits) + the R/W (8th) bit set to READ
+        3. S: Responds with ACK
+        4. S: Send byte
+        5. M: Responds with ACK
+        6. Repeat steps 4 and 5 zero or more times
+        7. M: Broadcast STOP OR (broadcast RESTART and go back to (2))
 
 [ARM Cortex-M]: https://en.wikipedia.org/wiki/ARM_Cortex-M
 [ARM Cortex-M Instruction sets]: https://en.wikipedia.org/wiki/ARM_Cortex-M#Instruction_sets

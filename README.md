@@ -11,5 +11,5 @@
 
 
 
-    [ARM Cortex-M](https://en.wikipedia.org/wiki/ARM_Cortex-M)
-    [ARM Cortex-M Instruction sets](https://en.wikipedia.org/wiki/ARM_Cortex-M#Instruction_sets)
+    [ARM Cortex-M]: https://en.wikipedia.org/wiki/ARM_Cortex-M
+    [ARM Cortex-M Instruction sets]: https://en.wikipedia.org/wiki/ARM_Cortex-M#Instruction_sets

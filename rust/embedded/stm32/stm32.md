@@ -112,7 +112,7 @@
         7. M: Broadcast STOP OR (broadcast RESTART and go back to (2))
 
     * Master reading from the Slave  
-      If the master wants to read data from the slave:
+      If the master wants to read data from the slave:  
       ![I2C Master read from Slave diagram](https://upload.wikimedia.org/wikipedia/commons/3/3e/I2C.svg)  
         1. M: Broadcast START
         2. M: Broadcast slave address (7 bits) + the R/W (8th) bit set to READ

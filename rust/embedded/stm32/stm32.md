@@ -45,6 +45,15 @@
     *`hf` - hard floating (FPU operations will performed (faster) on the hardware level)*  
     *`sf` - soft floating (FPU operations will performed (slower) on the software level)*  
 
+  * ELF files and bin files?  
+    bin file - is how the memory looks before CPU starts executing  
+    ELF file - is a cut-up/compressed version of that, wich can't be run by CPU/MCU directly  
+    <https://doc.rust-lang.org/cargo/commands/cargo-build.html>
+    <https://en.wikipedia.org/wiki/Executable_and_Linkable_Format>
+    <https://stackoverflow.com/questions/2427011/what-is-the-difference-between-elf-files-and-bin-files>  
+
+      (to read ELF file use: `readelf -h ./target/thumbv7m-none-eabi/release/stm32_hello`)  
+
 * Debugging:  
     for debian / ubuntu install this tools:  
     `sudo apt install gdb-multiarch openocd`  

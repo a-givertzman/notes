@@ -75,7 +75,7 @@
 
   * Documentation  
   
-    * [about I2C on docs.rust-embedded.org](https://docs.rust-embedded.org/discovery/f3discovery/14-i2c/index.html)
+    * [about I2C on docs.rust-embedded.org](https://docs.rust-embedded.org/discovery/f3discovery/14-i2c/index.html)  
     ![I2C-diagram](https://upload.wikimedia.org/wikipedia/commons/3/3e/I2C.svg)
 
 [ARM Cortex-M]: https://en.wikipedia.org/wiki/ARM_Cortex-M

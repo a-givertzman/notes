@@ -2,10 +2,11 @@
 
 ### [Rust](https://github.com/a-givertzman/notes/tree/master/rust)
 
-#### [Rust embedded](https://github.com/a-givertzman/notes/tree/master/rust/embedded)
-  - [**stm32**](rust/embedded/stm32.md)
+#### [Rust embedded](rust/embedded)
+  - [**stm32**](rust/embedded/stm32/stm32.md)
+    [examples](rust/embedded/stm32/stm32.md)
 
-  - **esp32**
+  - [**esp32**](rust/embedded/esp32/esp32.md)
 
 
 

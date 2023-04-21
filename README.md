@@ -1,7 +1,8 @@
 # notes
 
 ### [Rust](https://github.com/a-givertzman/notes/tree/master/rust)
-#### Rust embedded
+
+#### [Rust embedded](https://github.com/a-givertzman/notes/tree/master/rust/embedded)
 
   - stm32
     * [ARM Cortex-M]

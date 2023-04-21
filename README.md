@@ -1,11 +1,11 @@
 # notes
 
 ### [Rust](https://github.com/a-givertzman/notes/tree/master/rust)
-    - stm32
-        - [ ] lkjdflgjksdrg
-        - [ARM Cortex-M]
-        - [ARM Cortex-M Instruction sets]
-    - esp32
+  - stm32  
+    * [ARM Cortex-M]  
+    * jdfgblsjdk  
+    * kfhjlfjhs.kfl  
+  - esp32  
 
 
 

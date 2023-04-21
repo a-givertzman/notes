@@ -71,12 +71,35 @@
     run command:  
     `openocd -f interface/stlink.cfg -f target/stm32f3x.cfg`  
 
+* ## Run in QEMU
+
+  ```bash
+  qemu-system-arm \
+    -cpu cortex-m3 \
+    -machine lm3s6965evb \
+    -nographic \
+    -semihosting-config enable=on,target=native \
+    -kernel target/thumbv7m-none-eabi/debug/examples/hello
+  ```
+
 * ## I2C
 
   * Documentation  
   
     * [about I2C on docs.rust-embedded.org](https://docs.rust-embedded.org/discovery/f3discovery/14-i2c/index.html)  
+
+    * I2C communication diagram:
+
     ![I2C-diagram](https://upload.wikimedia.org/wikipedia/commons/3/3e/I2C.svg)
+
+    * I2C communication operations order:
+      1. Master: Broadcast START
+      2. M: Broadcast slave address (7 bits) + the R/W (8th) bit set to WRITE
+      3. Slave: Responds ACK (ACKnowledgement)
+      4. M: Send one byte
+      5. S: Responds ACK
+      6. Repeat steps 4 and 5 zero or more times
+      7. M: Broadcast STOP OR (broadcast RESTART and go back to (2))
 
 [ARM Cortex-M]: https://en.wikipedia.org/wiki/ARM_Cortex-M
 [ARM Cortex-M Instruction sets]: https://en.wikipedia.org/wiki/ARM_Cortex-M#Instruction_sets

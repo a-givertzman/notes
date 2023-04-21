@@ -23,6 +23,7 @@
     # target = "thumbv8m.main-none-eabihf" # Cortex-M33 (with FPU)
     ```
     - some targets for crosscompilation:  
+      to add target use: `rustup target add thumbv7em-none-eabihf`
       to list all supported targets use: `rustup target list`
           thumbv6m-none-eabi  
           thumbv7em-none-eabi  
@@ -33,7 +34,7 @@
           thumbv8m.base-none-eabi  
           thumbv8m.main-none-eabi  
           thumbv8m.main-none-eabihf  
-          
+
           *thumb - name of the instructions*
           *v6m, v7m/em, v8m - [arm core architecture](https://en.wikipedia.org/wiki/ARM_architecture_family)*  
           *eabi - embedded application binary interface*

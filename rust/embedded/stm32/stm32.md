@@ -96,7 +96,7 @@
 
     * [example on youtube](https://www.youtube.com/watch?v=j3wlSGP5Sw8&list=PLL2SCPK5xSRWBPj-nKOVYIhxRw7C4kYeI&index=6)  
 
-    * Master sending to the Slave  
+    * Master -> Slave  
       If the master wants to send data to the slave:
 
       ![I2C Master send to Slave diagram](https://upload.wikimedia.org/wikipedia/commons/3/3e/I2C.svg)  
@@ -111,7 +111,7 @@
         6. Repeat steps 4 and 5 zero or more times
         7. M: Broadcast STOP OR (broadcast RESTART and go back to (2))
 
-    * Master reading from the Slave  
+    * Master <- Slave  
       If the master wants to read data from the slave:  
       ![I2C Master read from Slave diagram](https://upload.wikimedia.org/wikipedia/commons/3/3e/I2C.svg)  
         1. M: Broadcast START

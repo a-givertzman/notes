@@ -35,11 +35,11 @@
           thumbv8m.main-none-eabi  
           thumbv8m.main-none-eabihf  
   
-        *thumb - name of the instructions*
-        *v6m, v7m/em, v8m - [arm core architecture](https://en.wikipedia.org/wiki/ARM_architecture_family)*  
-        *eabi - embedded application binary interface*
-        *hf - hard floating (FPU operations will performed (faster) on the hardware level)*
-        *sf - soft floating (FPU operations will performed (slower) on the software level)*
+        *`thumb` - name of the instructions*  
+        *`v6m, v7m/em, v8m` - [arm core architecture](https://en.wikipedia.org/wiki/ARM_architecture_family)*  
+        *`eabi` - embedded application binary interface*  
+        *`hf` - hard floating (FPU operations will performed (faster) on the hardware level)*  
+        *`sf` - soft floating (FPU operations will performed (slower) on the software level)*  
 
 
   - **esp32**

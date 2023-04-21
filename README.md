@@ -3,13 +3,12 @@
 ### [Rust](https://github.com/a-givertzman/notes/tree/master/rust)
 
 #### [Rust embedded](https://github.com/a-givertzman/notes/tree/master/rust/embedded)
-  to list all supported targets use: ```rustup target list```
   - **stm32**
     * [ARM Cortex-M]
     * [ARM Cortex-M Instruction sets]
     * Build (cross compilation) 
         [chech github for detales](https://github.com/rust-embedded/cortex-m-quickstart)  
-        .cargo/config
+        .cargo/config:
 ```
 [build]
 # Pick ONE of these compilation targets
@@ -21,7 +20,8 @@ target = "thumbv7em-none-eabihf" # Cortex-M4F and Cortex-M7F (with FPU)
 # target = "thumbv8m.main-none-eabi"   # Cortex-M33 (no FPU)
 # target = "thumbv8m.main-none-eabihf" # Cortex-M33 (with FPU)
 ```
-      * targets for crosscompilation:  
+    - possible targets for crosscompilation:  
+      to list all supported targets use: ```rustup target list```
           thumbv6m-none-eabi  
           thumbv7em-none-eabi  
           thumbv7em-none-eabihf  

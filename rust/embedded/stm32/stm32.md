@@ -52,7 +52,10 @@
     <https://en.wikipedia.org/wiki/Executable_and_Linkable_Format>
     <https://stackoverflow.com/questions/2427011/what-is-the-difference-between-elf-files-and-bin-files>  
 
-      (to read ELF file use: `readelf -h ./target/thumbv7m-none-eabi/release/stm32_hello`)  
+      to read ELF file use:  
+      `readelf -h ./target/thumbv7m-none-eabi/release/stm32_hello`  
+      to convert ELF into a bin file use:  
+      `arm-none-eabi-objcopy -O binary  src-elf-file  target-bin-file.bin`
 
 * Debugging:  
     for debian / ubuntu install this tools:  

@@ -3,8 +3,7 @@
 ### [Rust](https://github.com/a-givertzman/notes/tree/master/rust)
 
 #### [Rust embedded](https://github.com/a-givertzman/notes/tree/master/rust/embedded)
-  list all supported targets:
-  ``rustup target list
+  to list all supported targets use: ```rustup target list```
   - stm32
     * [ARM Cortex-M]
     * [ARM Cortex-M Instruction sets]

@@ -17,6 +17,9 @@
         thumbv8m.base-none-eabi  
         thumbv8m.main-none-eabi  
         thumbv8m.main-none-eabihf  
+        *thumb - name of the instructions*
+        *v6m, v7m/em, v8m - [arm core architecture](https://en.wikipedia.org/wiki/ARM_architecture_family)*  
+        *eabi - embedded application binary interface*
 
   - **esp32**
 

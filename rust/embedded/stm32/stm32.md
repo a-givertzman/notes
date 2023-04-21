@@ -95,20 +95,27 @@
 
     * [about I2C on docs.rust-embedded.org](https://docs.rust-embedded.org/discovery/f3discovery/14-i2c/index.html)  
 
-    * [example on youtube](https://www.youtube.com/watch?v=j3wlSGP5Sw8&list=PLL2SCPK5xSRWBPj-nKOVYIhxRw7C4kYeI&index=6)
+    * [example on youtube](https://www.youtube.com/watch?v=j3wlSGP5Sw8&list=PLL2SCPK5xSRWBPj-nKOVYIhxRw7C4kYeI&index=6)  
 
-    * I2C communication diagram:
 
-    ![I2C-diagram](https://upload.wikimedia.org/wikipedia/commons/3/3e/I2C.svg)
+    * Master -> Slave  
+      If the master wants to send data to the slave:
 
-    * I2C communication operations order:
-      1. Master: Broadcast START
-      2. M: Broadcast slave address (7 bits) + the R/W (8th) bit set to WRITE
-      3. Slave: Responds ACK (ACKnowledgement)
-      4. M: Send one byte
-      5. S: Responds ACK
-      6. Repeat steps 4 and 5 zero or more times
-      7. M: Broadcast STOP OR (broadcast RESTART and go back to (2))
+      ![I2C Master send to Slave diagram](https://upload.wikimedia.org/wikipedia/commons/3/3e/I2C.svg)  
+        `SDA - data line`  
+        `SCL - clock line`  
+
+        1. Master: Broadcast START
+        2. M: Broadcast slave address (7 bits) + the R/W (8th) bit set to WRITE
+        3. Slave: Responds ACK (ACKnowledgement)
+        4. M: Send one byte
+        5. S: Responds ACK
+        6. Repeat steps 4 and 5 zero or more times
+        7. M: Broadcast STOP OR (broadcast RESTART and go back to (2))
+
+    * Master <- Slave  
+      If the master wants to read data from the slave:
+      ![I2C Master read from Slave diagram](https://upload.wikimedia.org/wikipedia/commons/3/3e/I2C.svg)
 
 [ARM Cortex-M]: https://en.wikipedia.org/wiki/ARM_Cortex-M
 [ARM Cortex-M Instruction sets]: https://en.wikipedia.org/wiki/ARM_Cortex-M#Instruction_sets

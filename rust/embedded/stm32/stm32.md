@@ -1,11 +1,16 @@
 # stm32
 
-* Development documentation:
-    [on Arm Developer](https://developer.arm.com/documentation/#&cf[navigationhierarchiesproducts]=%20IP%20Products,Processors,Cortex-M)
-* [ARM Cortex-M]
-* [ARM Cortex-M Instruction sets]
-* Build (cross compilation)
+* ## Development documentation  
+
+  * [on Arm Developer](https://developer.arm.com/documentation/#&cf[navigationhierarchiesproducts]=%20IP%20Products,Processors,Cortex-M)
+
+  * [ARM Cortex-M]
+  * [ARM Cortex-M Instruction sets]
+
+* ## Build (cross compilation)
+
     [chech github for detales](https://github.com/rust-embedded/cortex-m-quickstart)  
+
     [.cargo/config:](https://github.com/rust-embedded/cortex-m-quickstart#:~:text=Set%20a%20default%20compilation%20target.%20There%20are%20four%20options%20as%20mentioned%20at%20the%20bottom%20of%20.cargo/config.%20For%20the%20STM32F303VCT6%2C%20which%20has%20a%20Cortex%2DM4F%20core%2C%20we%27ll%20pick%20the%20thumbv7em%2Dnone%2Deabihf%20target.)
 
     ```toml
@@ -57,10 +62,16 @@
       to convert ELF into a bin file use:  
       `arm-none-eabi-objcopy -O binary  src-elf-file  target-bin-file.bin`
 
-* Debugging:  
+* ## Debugging  
+
     for debian / ubuntu install this tools:  
     `sudo apt install gdb-multiarch openocd`  
     if using virtual controller: `qemu-system-arm`
 
     run command:  
     `openocd -f interface/stlink.cfg -f target/stm32f3x.cfg`  
+
+* ## I2C
+
+[ARM Cortex-M]: https://en.wikipedia.org/wiki/ARM_Cortex-M
+[ARM Cortex-M Instruction sets]: https://en.wikipedia.org/wiki/ARM_Cortex-M#Instruction_sets

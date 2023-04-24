@@ -1,6 +1,6 @@
 # RTIC
 
-Real-Time Interrupt-driven Concurrency
+Real-Time Interrupt-driven Concurrency  
 A concurrency framework for building real-time systems
 
 ```rust

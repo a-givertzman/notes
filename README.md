@@ -1,6 +1,8 @@
 # notes
 
-## [Rust](https://github.com/a-givertzman/notes/tree/master/rust)
+## [Linux](linux)
+
+## [Rust](rust)
 
 ## [Rust embedded](rust/embedded)
 

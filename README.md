@@ -2,6 +2,8 @@
 
 ## [Linux](linux)
 
+- [Linux I2C Utils](linux/i2c-tools.md)
+
 ## [Rust](rust)
 
 ## [Rust embedded](rust/embedded)

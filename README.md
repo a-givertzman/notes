@@ -15,4 +15,4 @@
 
 - [The Rusty High-speed Probe (Debug (SWD) and JTAG protocol)](https://github.com/probe-rs/hs-probe)
 
-- [RTIC](rust/embedded/rtic.md)
+- [RTIC](rust/embedded/rtic/rtic.md)

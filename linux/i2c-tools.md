@@ -2,7 +2,7 @@
 
 `sudo apt install i2c-tools`
 
-avalible commands:
+## avalible commands
 
 - i2cdetect,  
 
@@ -70,6 +70,6 @@ Read back the device at offset 0x2 and verify the data should be 0x12.
 
 - i2ctransfer
 
-references:
+## references
 
 - [I2C Utilities in Linux on linuxhint.com](https://linuxhint.com/i2c-linux-utilities/)

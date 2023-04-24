@@ -12,3 +12,5 @@
     [examples](rust/embedded/stm32/stm32.md)
 
 - [**esp32**](rust/embedded/esp32/esp32.md)
+
+- [The Rusty High-speed Probe (Debug (SWD) and JTAG protocol)](https://github.com/probe-rs/hs-probe)

@@ -58,7 +58,7 @@
 - listen once on port 8080  
 `sudo printf 'HTTP/1.1 200 OK\n\n%s' "$(cat index.html)" | netcat -l 8080`
 
-- listen ifinit on port 8080:  
+- listen infinit on port 8080:  
 `while true; do printf 'HTTP/1.1 200 OK\n\n%s' "$(cat index.html)" | netcat -l 8888; done`
 
 - try following html for fun:  

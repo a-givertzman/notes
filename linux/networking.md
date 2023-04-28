@@ -45,11 +45,13 @@
 ### UDP Transfering
 
 - listening:  
+`nc -l -u -k 2000`
 `nc -l -u -k 2000 > ./esp32.log`
 
 - sending general:  
 `netcat -u host port`  
-`netcat host startport-endport`
+`netcat host startport-endport`  
+`nc -u 127.0.0.1 2000`
 
 ### Simple Web Server
 

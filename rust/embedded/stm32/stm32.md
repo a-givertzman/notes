@@ -121,6 +121,8 @@
         5. M: Responds with ACK
         6. Repeat steps 4 and 5 zero or more times
         7. M: Broadcast STOP OR (broadcast RESTART and go back to (2))
+* ## USB OTG
+  * [usb-otg-workspace github](https://github.com/Disasm/usb-otg-workspace)
 
 [ARM Cortex-M]: https://en.wikipedia.org/wiki/ARM_Cortex-M
 [ARM Cortex-M Instruction sets]: https://en.wikipedia.org/wiki/ARM_Cortex-M#Instruction_sets

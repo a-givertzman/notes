@@ -56,11 +56,9 @@ How does this works? It generates 3 square signals and combines them together:
 inverted very slow square to simulate a negative DC offset on volume level of the least significant bit plus one of the desired precision​
 Is it nice, isn't it? :)
 
-
-J-test 16-bit @44100fs:
-Code:
-JL=$(bc -l <<< "dbbit=20*l(2)/l(10); 16*dbbit")
-play -V -D -r 44100 -n synth square 11025 square 229.6875 square 0.00001 remix 1v0.5,2p-$JL,3i-$JL channels 2
+- J-test 16-bit @44100fs:
+`JL=$(bc -l <<< "dbbit=20*l(2)/l(10); 16*dbbit")`  
+`play -V -D -r 44100 -n synth square 11025 square 229.6875 square 0.00001 remix 1v0.5,2p-$JL,3i-$JL channels 2`
 
 - refs:  
 [a complete SoX reference manual](https://sox.sourceforge.net/sox.html)

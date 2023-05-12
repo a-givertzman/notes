@@ -61,5 +61,5 @@ Is it nice, isn't it? :)
 `play -V -D -r 44100 -n synth square 11025 square 229.6875 square 0.00001 remix 1v0.5,2p-$JL,3i-$JL channels 2`
 
 - refs:  
-[a complete SoX reference manual](https://sox.sourceforge.net/sox.html)
-[HOWTO: SoX audio tool as a signal generator (audiosciencereview.com)](https://www.audiosciencereview.com/forum/index.php?threads/howto-sox-audio-tool-as-a-signal-generator.4242/)
+  - [a complete SoX reference manual](https://sox.sourceforge.net/sox.html)
+  - [HOWTO: SoX audio tool as a signal generator (audiosciencereview.com)](https://www.audiosciencereview.com/forum/index.php?threads/howto-sox-audio-tool-as-a-signal-generator.4242/)

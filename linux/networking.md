@@ -10,27 +10,39 @@
 `i -4 a` - only ip v4  
 `i -6 a` - only ip v6
 
-- view interface eth0:  
-`ip a show eth0`  
-`ip a list eth0`  
-`ip a show dev eth0`
+- view interface eth0:
+
+  ```bash
+  ip a show eth0
+  ip a list eth0
+  ip a show dev eth0
+  ```
 
 - view UP - state only interfaces:  
 `ip link ls up`
 
-- add IP address to the interface eth0:  
-ip a add {ip_addr/mask} dev {interface}  
-`ip a add 192.168.1.200/24 dev eth0`  
-`ip a add 192.168.1.200/255.255.255.0 dev eth0`
+- add IP address to the interface eth0:
 
-- delete IP address from interface:  
-`ip a del {ipv6_addr_OR_ipv4_addr} dev {interface}`  
-`ip a del 192.168.1.200/24 dev eth0`
+  ```bash
+  ip a add {ip_addr/mask} dev {interface}  
+  ip a add 192.168.1.200/24 dev eth0
+  ip a add 192.168.1.200/255.255.255.0 dev eth0
+  ```
 
-- set interface UP / DOWN:  
-`ip link set dev {DEVICE} {up|down}`  
-`ip link set dev eth1 up`  
-`ip link set dev eth1 down`
+- delete IP address from interface:
+
+  ```bash
+  ip a del {ipv6_addr_OR_ipv4_addr} dev {interface}
+  ip a del 192.168.1.200/24 dev eth0
+  ```
+
+- set interface UP / DOWN:
+
+  ```bash
+  ip link set dev {DEVICE} {up|down}
+  ip link set dev eth1 up
+  ip link set dev eth1 down
+  ```
 
 - Как изменить txqueuelen устройства:  
 Вы можете установить длину очереди передачи устройства с помощью ifconfig или команды ip следующим образом:  

@@ -3,8 +3,8 @@
 ## [Linux](linux)
 
 - [Linux networking](linux/networking)
-  - [config](linux/networking/config.md.md)
-  - [netcat](linux/networking/netcat.md.md)
+  - [config](linux/networking/config.md)
+  - [netcat](linux/networking/netcat.md)
 
 - [Linux I2C Utils](linux/i2c-tools.md)
 

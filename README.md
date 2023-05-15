@@ -6,6 +6,9 @@
 
 - [Linux I2C Utils](linux/i2c-tools.md)
 
+- [Linux Audio Utils](linux/i2c-tools.md)
+  - [SoX audio tool](linux/audio-sox.md)
+
 ## [Rust](rust)
 
 ## [Rust embedded](rust/embedded)

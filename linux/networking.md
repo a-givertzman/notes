@@ -98,6 +98,45 @@ ip a list eth0
 или  
 `ip -s -s n flush 192.168.1.5`
 
+- ip route: команды управления таблицей маршрутизации
+Используйте следующие команды для управления таблицей маршрутизации ядра.
+
+- Показать таблицу маршрутизации:  
+`ip r`  
+`ip r list`  
+`ip route`  
+Пример вывода:
+  
+  ```bash
+  default via 192.168.1.254 dev eth1
+  192.168.1.0/24 dev eth1 proto kernel scope link src 192.168.1.10
+  ```
+
+- Показать роутинг для 192.168.1.0/24:  
+`ip r list 192.168.1.0/24`  
+Пример вывода:  
+`192.168.1.0/24 dev eth1  proto kernel  scope link  src 192.168.1.10`
+
+- Добавить новый маршрут:
+Синтаксис:  
+
+  ```bash
+  ip route add {NETWORK/MASK} via {GATEWAYIP}
+  ip route add {NETWORK/MASK} dev {DEVICE}
+  ip route add default {NETWORK/MASK} dev {DEVICE}
+  ip route add default {NETWORK/MASK} via {GATEWAYIP}
+  ```
+
+  Добавить статический маршрут в сеть 192.168.1.0/24 через шлюз 192.168.1.254:  
+  `ip route add 192.168.1.0/24 via 192.168.1.254`  
+  Чтобы маршрутизировать весь трафик через шлюз 192.168.1.254 подключенный через сетевой интерфейс eth0:  
+  `ip route add 192.168.1.0/24 dev eth0`
+
+- Удалить маршрут:  
+Команда чтобы удалить маршрут по умолчанию:  
+`ip route del default`  
+В этом примере удалим маршрут созданный в предыдущем блоке:  
+`ip route del 192.168.1.0/24 dev eth0`
 
 ## netcat
 

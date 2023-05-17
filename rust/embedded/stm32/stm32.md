@@ -121,9 +121,19 @@
         5. M: Responds with ACK
         6. Repeat steps 4 and 5 zero or more times
         7. M: Broadcast STOP OR (broadcast RESTART and go back to (2))
+
 * ## USB OTG
+
   * [usb-otg-workspace github](https://github.com/Disasm/usb-otg-workspace)
   * [example](https://dev.to/minkovsky/universally-stupid-battling-usb-on-a-microcontroller-with-rust-2leg)
+
+* ## ADC
+
+  * [STM32 Timer + ADC + DMA: Part 1](https://www.skybluetrades.net/blog/2020/11/2020-11-24-stm32-timer-adc-dma-1/)
+  * [STM32 Timer + ADC + DMA: Part 2](https://www.skybluetrades.net/blog/2020/11/2020-11-25-stm32-timer-adc-dma-2/)
+  * [STM32 Timer + ADC + DMA: Part 3](https://www.skybluetrades.net/blog/2020/11/2020-11-26-stm32-timer-adc-dma-3/)
+
+  * [STM32 I2S ADC DMA & Double Buffering - Digital Audio Processing with STM32 #4 - Phil's Lab #55](https://www.youtube.com/watch?v=zlGSxZGwj-E&t=440s)
 
 [ARM Cortex-M]: https://en.wikipedia.org/wiki/ARM_Cortex-M
 [ARM Cortex-M Instruction sets]: https://en.wikipedia.org/wiki/ARM_Cortex-M#Instruction_sets

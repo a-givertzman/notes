@@ -2,8 +2,8 @@
 
 * ## Development documentation  
 
-  * [Programming manual](docs/pm0253-stm32f7-series-and-stm32h7-series-cortexm7-processor-programming-manual-stmicroelectronics.pdf)
   * [Reference manual](docs/rm0410-stm32f76xxx-and-stm32f77xxx-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)
+  * [Programming manual](docs/pm0253-stm32f7-series-and-stm32h7-series-cortexm7-processor-programming-manual-stmicroelectronics.pdf)
   * [on Arm Developer](https://developer.arm.com/documentation/#&cf[navigationhierarchiesproducts]=%20IP%20Products,Processors,Cortex-M)
 
   * [ARM Cortex-M]

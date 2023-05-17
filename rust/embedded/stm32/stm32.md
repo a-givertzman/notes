@@ -2,6 +2,8 @@
 
 * ## Development documentation  
 
+  * [STM32 Nucleo-144 boards (MB1137) User manual](docs/um1974-stm32-nucleo144-boards-mb1137-stmicroelectronics.pdf)
+  * [Getting started with STM32 Nucleo board software](docs/um1727-getting-started-with-stm32-nucleo-board-software-development-tools-stmicroelectronics.pdf)
   * [Reference manual](docs/rm0410-stm32f76xxx-and-stm32f77xxx-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)
   * [Programming manual](docs/pm0253-stm32f7-series-and-stm32h7-series-cortexm7-processor-programming-manual-stmicroelectronics.pdf)
   * [on Arm Developer](https://developer.arm.com/documentation/#&cf[navigationhierarchiesproducts]=%20IP%20Products,Processors,Cortex-M)

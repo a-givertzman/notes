@@ -12,7 +12,7 @@
 - Linux Audio Utils
   - [SoX audio tool](linux/audio-sox.md)
 
-- [Linux dconf](linux/dconf.md) <tspan fill="green">low-level configuration system</tspan>
+- [Linux dconf](linux/dconf.md) <span fill="green">low-level configuration system</span>
 
 - on screen keyboard
   - Onboard

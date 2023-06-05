@@ -12,7 +12,7 @@
 - Linux Audio Utils
   - [SoX audio tool](linux/audio-sox.md)
 
-- Linux dconf <span style="color:gray">low-level configuration system</span>
+- Linux dconf <span style="color:#A9A9A9">low-level configuration system</span>
 
 ## [Rust](rust)
 

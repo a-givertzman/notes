@@ -4,12 +4,15 @@
 
 - [Linux networking](linux/networking)
   - [config](linux/networking/config.md)
+  - [diagnosis](linux/networking/diagnosis.md)
   - [netcat](linux/networking/netcat.md)
 
 - [Linux I2C Utils](linux/i2c-tools.md)
 
 - Linux Audio Utils
   - [SoX audio tool](linux/audio-sox.md)
+
+- Linux dconf <span style="color:gray">low-level configuration system</span>
 
 ## [Rust](rust)
 

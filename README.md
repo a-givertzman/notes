@@ -40,5 +40,7 @@
 
 ## [Electronisc](electronics)
 
+- [Op-amp](electronics/op-amp)
+  - [basic circuits](electronics/op-amp/op-amp.md)
 - [Analog filters](electronics/analog-filters)
   - [Active low pass filter](electronics/analog-filters/low-pass-filter.md)

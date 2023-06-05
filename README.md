@@ -14,6 +14,11 @@
 
 - Linux dconf <span style="color:#A9A9A9">low-level configuration system</span>
 
+- on screen keyboard
+  - Onboard
+    - [web site](https://launchpad.net/onboard)
+    - [sorce code (python)](https://bazaar.launchpad.net/~onboard/onboard/trunk/files)
+
 ## [Rust](rust)
 
 ## [Rust embedded](rust/embedded)

@@ -2,15 +2,19 @@
 
 Provides check for memory errors
 
-## installing and ussage
+- installation
 
 ```bash
 sudo apt install valgrind
+```
 
+- usage
+
+```bash
 cargo run app_name && valgrind ./target/debug/app_name
 ```
 
-### result example
+output
 
 ```console
     Finished dev [unoptimized + debuginfo] target(s) in 0.03s

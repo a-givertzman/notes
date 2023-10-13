@@ -46,3 +46,5 @@
   - [Active low pass filter](electronics/analog-filters/low-pass-filter.md)
 
 ## [Memory check](rust/memory_check)
+
+- [**valgrind**](rust/memory_check/valgrind.md)  

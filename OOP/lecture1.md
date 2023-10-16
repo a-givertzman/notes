@@ -23,7 +23,7 @@ conversation with Dr. West:
 >  
 > — Yegor: "How i anderstand the original idea"
 
-The Object:  
+### The Object
 
     - composition
         the software must be a composition of the objects
@@ -35,3 +35,33 @@ The Object:
         the object must hiding data as much as possible
     - expose behavior
         instead of the data sharing, object exposing bihavior
+
+### Object properties
+
+- Identity  
+    meaning that objects are exact the same
+
+
+```java
+c1 = new Circle(r: 42)
+c2 = new Circle(r: 42)
+c1 != c2
+```
+
+- State
+    meaning that abjects has equal content
+
+```java
+c1 = new Circle(r: 42)
+c2 = new Circle(r: 42)
+c1.radius() == c2.radius()
+```
+
+- Behavior
+    meaning that only behavior of the object is the same / equal
+
+```java
+c1 = new Circle(r: 42)
+c2 = new Circle(r: -42)
+c1.square() == c2.square()
+```

@@ -83,8 +83,8 @@ c1.square() == c2.square()
 ### Object Thinking vs. Algorithm Thinking
 
 <table><tr>
-    <th> algorithm thinking </th>
-    <th> object thinking </th>
+    <th> algorithm thinking ❌</th>
+    <th> object thinking ✅</th>
 </tr>
 <tr>
 <td>

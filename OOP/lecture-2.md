@@ -4,8 +4,8 @@
 
 
 <table><tr>
-    <th> algorithm thinking </th>
-    <th> object thinking </th>
+    <th> Bad ❌</th>
+    <th> Good ✅</th>
 </tr>
 <tr>
 <td>
@@ -25,8 +25,8 @@ class GeometryUtils {
 
 ```java
 class Circle {
-    float radius;
-    float square() {
+    private float radius;   // State
+    float square() {        // Bihavior
         return c.radius * c.radius * 3.14;
     }
 }
@@ -35,6 +35,13 @@ class Circle {
 ```
 
 </td></tr></table>
+
+Wat's wrong with "Utils"
+
+1. They are __unbreakable__ dippendancy
+2. They are __eager__, not lasy
+3. They are __not cohesive__
+
 
 ## Static Attributes
 

@@ -16,3 +16,22 @@
 conversation with Dr. West:
 [part I](https://www.youtube.com/watch?v=s-hdZZzMCac) and
 [part 2](https://www.youtube.com/watch?v=bW5K5cJ-AVs)
+
+> "A system is a composition of objects that  
+> are abstractions, wich hide data  
+> and expose behavior"  
+>  
+> — Yegor: "How i anderstand the original idea"
+
+The Object:  
+
+    - composition
+        the software must be a composition of the objects
+    - abstraction  
+        this is abstraction of the real objects,  
+        must have as much data and behavior attributes  
+        as it is necessary and enough for the current task
+    - hide data  
+        the object must hiding data as much as possible
+    - expose behavior
+        instead of the data sharing, object exposing bihavior

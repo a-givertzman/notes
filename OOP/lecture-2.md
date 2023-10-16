@@ -38,7 +38,9 @@ class Circle {
 Wat's wrong with "Utils"
 
 1. They are <u>unbreakable</u> dippendancy
-2. They are <u>eager</u>, not lasy
+    - for testing purposes
+    - for reusing
+2. They are <ins>eager</ins>, not lasy
 3. They are <u>not cohesive</u>
 
 ## Static Attributes

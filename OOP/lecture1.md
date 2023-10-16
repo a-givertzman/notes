@@ -152,9 +152,9 @@ class Pulls
         while @pull.again; end
     end
 end
-Pulls(
-    Pull(
-        Buffer()
+Pulls.new(
+    Pull.new(
+        Buffer.new
     )
 ).fetch
 ```

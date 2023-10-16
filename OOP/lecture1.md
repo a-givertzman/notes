@@ -30,17 +30,17 @@ conversation with Dr. West:
         some times it is dificult to diside how the composition  
         mast be done
 
-        ```java
-        canvas = new Canvas()
-        canvas.add(new Cirvle(42))
-        canvas.draw()    
-        ```
+```java
+canvas = new Canvas()
+canvas.add(new Cirvle(42))
+canvas.draw()    
+```
 
-        ```java
-        canvas = new Canvas()
-        canvas.add(new Cirvle(42))
-        canvas.draw()    
-        ```
+```java
+canvas = new Canvas()
+circle = new Cirvle(42)
+circle.drawOn(canvas)    
+```
 
     - abstraction  
         this is abstraction of the real objects,  

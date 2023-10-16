@@ -48,7 +48,7 @@ c2 = new Circle(r: 42)
 c1 != c2
 ```
 
-- State
+- State  
     meaning that abjects has equal content
 
 ```java
@@ -57,7 +57,7 @@ c2 = new Circle(r: 42)
 c1.radius() == c2.radius()
 ```
 
-- Behavior
+- Behavior  
     meaning that only behavior of the object is the same / equal
 
 ```java

@@ -82,7 +82,7 @@ c1.square() == c2.square()
 
 ### Object Thinking vs. Algorithm Thinking
 
-<div style="width: 100%">
+<div style="display: block">
 <table><tr>
     <th> algorithm thinking </th>
     <th> object thinking </th>

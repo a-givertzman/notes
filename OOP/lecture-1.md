@@ -127,7 +127,7 @@ end
 
 </td><td>
 
-```c++
+```ruby
 class Buffer
     def initialize; @data = []; end
     def push(c)

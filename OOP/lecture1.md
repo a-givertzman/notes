@@ -26,7 +26,22 @@ conversation with Dr. West:
 ### The Object
 
     - composition
-        the software must be a composition of the objects
+        the software must be a composition of the objects  
+        some times it is dificult to diside how the composition  
+        mast be done
+
+        ```java
+        canvas = new Canvas()
+        canvas.add(new Cirvle(42))
+        canvas.draw()    
+        ```
+
+        ```java
+        canvas = new Canvas()
+        canvas.add(new Cirvle(42))
+        canvas.draw()    
+        ```
+
     - abstraction  
         this is abstraction of the real objects,  
         must have as much data and behavior attributes  

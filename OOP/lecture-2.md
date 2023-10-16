@@ -2,7 +2,6 @@
 
 ## Static Methods
 
-
 <table><tr>
     <th> Bad ❌</th>
     <th> Good ✅</th>
@@ -38,12 +37,10 @@ class Circle {
 
 Wat's wrong with "Utils"
 
-1. They are __unbreakable__ dippendancy
-2. They are __eager__, not lasy
-3. They are __not cohesive__
-
+1. They are <u>unbreakable</u> dippendancy
+2. They are <u>eager</u>, not lasy
+3. They are <u>not cohesive</u>
 
 ## Static Attributes
-
 
 ## Example Fastjson

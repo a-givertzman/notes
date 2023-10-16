@@ -79,9 +79,10 @@ c1 = new Circle(r: 42)
 c2 = new Circle(r: -42)
 c1.square() == c2.square()
 ```
+
 ### Object Thinking vs. Algorithm Thinking
 
-<table><tr>
+<table style="width: 100%"><tr>
     <th> algorithm thinking </th>
     <th> object thinking </th>
 </tr>

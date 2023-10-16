@@ -79,3 +79,62 @@ c1 = new Circle(r: 42)
 c2 = new Circle(r: -42)
 c1.square() == c2.square()
 ```
+### Object Thinking vs. Algorithm Thinking
+
+<table><tr>
+    <th> algorithm thinking </th>
+    <th> object thinking </th>
+</tr>
+<tr>
+<td>
+
+```ruby
+buffer = []
+while true 
+    c = STDIN.readchar
+    brake if c == "\n"
+    if buffer.length > 3
+        STDOUT.puts buffer.join
+        buffer = []
+    end
+    buffer << c
+end
+```
+
+</td><td>
+
+```c++
+class Buffer
+    def initialize; @data = []; end
+    def push(c)
+        if @data.length > 3
+            STDOUT.puts buffer.join
+            @data = []
+        end
+        buffer << c
+    end
+end
+class Pull
+    def initialize(b); @buf = b; end
+    def again
+        c = STDIN.readchar
+        return false if c == "\n"
+        @buf.push(c)
+        return true
+    end
+end
+class Pulls
+    def initialize(p); @pull = p; end
+    fef fetch
+        while @pull.again; end
+    end
+end
+Pulls(
+    Pull(
+        Buffer()
+    )
+).fetch
+```
+
+</td>
+</tr></table>

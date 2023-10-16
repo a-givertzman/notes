@@ -39,7 +39,7 @@ conversation with Dr. West:
 ### Object properties
 
 - Identity  
-    meaning that objects are exact the same or not
+    meaning that exact objects comparing
 
 ```java
 c1 = new Circle(r: 42)
@@ -48,7 +48,7 @@ c1 != c2
 ```
 
 - State  
-    meaning that abjects has equal content or not
+    meaning that objects content (the data) comparing
 
 ```java
 c1 = new Circle(r: 42)
@@ -57,8 +57,7 @@ c1.radius() == c2.radius()
 ```
 
 - Behavior  
-    meaning that only behavior of the object  
-    is the same / equal or not
+    meaning that only behavior result comparing
 
 ```java
 c1 = new Circle(r: 42)

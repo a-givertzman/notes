@@ -37,11 +37,12 @@ class Circle {
 
 Wat's wrong with "Utils"
 
-1. They are <u>unbreakable</u> dippendancy
+1. They are <u> unbreakable </u> dippendancy
+    - objects knowing too mach about each other, this deaap deppendancy difficult to breake
     - for testing purposes
     - for reusing
-2. They are <ins>eager</ins>, not lasy
-3. They are <u>not cohesive</u>
+2. They are <u> eager </u>, not lasy
+3. They are <u> not cohesive </u>
 
 ## Static Attributes
 

@@ -161,3 +161,21 @@ Pulls.new(
 ```
 
 </td></tr></table>
+
+### Enemies of Object Thinking
+
+What make us to think as algorithms
+
+- Global scope (static methods)
+
+- Anemic objects (getters)
+
+- Mutability (getters)
+
+- Worker's (classes with the "er" sufix)
+
+- NULL references
+
+- Type custing (reflection)
+
+- Inheritance

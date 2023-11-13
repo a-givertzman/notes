@@ -43,6 +43,11 @@ Wat's wrong with "Utils"
     - for reusing
 2. They are <u> eager </u>, not lasy
 3. They are <u> not cohesive </u>
+    - coupling: mast be as less as posible  
+        class 1  <- knows ebout each other -> class2
+        class 1 & class 2 has unbbrakable dependency especially during testing
+    - cohesive: the higher is the better  
+        hor example we have a class Circle and couple of methods to calculate a circle - so there are cohesive, but if we add some thing like delete file - it's not a cohesive
 
 ## Static Attributes
 

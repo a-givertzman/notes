@@ -45,6 +45,7 @@
 - [Analog filters](electronics/analog-filters)
   - [Active low pass filter](electronics/analog-filters/low-pass-filter.md)
 
+## [Git](git)
 ## [Memory check](rust/memory_check)
 
 - [**valgrind**](rust/memory_check/valgrind.md)  

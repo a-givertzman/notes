@@ -90,11 +90,11 @@
 
   * References:  
   
-    * [Rust Discovery Book - Chapter 14 - I2C](https://docs.rust-embedded.org/discov...)
-    * [Understanding the I2C bus by Texas Instruments](https://www.ti.com/lit/an/slva704/slv...)
-    * [LSM303AGR](https://www.st.com/resource/en/datash...)
-    * [LSM303DLHC](https://www.st.com/resource/en/datash...)
-    * [F3Discovery electrical schematics](https://docs.rs-online.com/5192/09007...)
+    * [Rust Discovery Book - Chapter 14 - I2C](https://docs.rust-embedded.org/discovery/f3discovery/14-i2c/index.html)
+    * [Understanding the I2C bus by Texas Instruments](docs/slva704.pdf)
+    * [LSM303AGR](https://www.st.com/resource/en/datasheet/lsm303agr.pdf)
+    * [LSM303DLHC](https://www.st.com/resource/en/datasheet/lsm303dlhc.pdf)
+    * [F3Discovery electrical schematics](https://docs.rs-online.com/5192/0900766b814876f9.pdf)
 
     * [about I2C on docs.rust-embedded.org](https://docs.rust-embedded.org/discovery/f3discovery/14-i2c/index.html)  
 

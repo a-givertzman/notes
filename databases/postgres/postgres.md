@@ -49,7 +49,7 @@ then
   ) ORDER BY indrelid;
   ```
   
-  ![Source](./Indexes-Unused.png)
+  ![Source](./Indexes-Monitoring_1.png)
 
   - V2
 
@@ -65,6 +65,8 @@ then
   ORDER BY idstat.relname, indexrelname;
   ```
 
+  ![Source](./Indexes-Monitoring_2.png)
+
 - Unused indexes
 
 ```sql
@@ -76,3 +78,5 @@ SELECT
   WHERE NOT indisunique AND idx_scan < 50 AND pg_relation_size(relid) > 5 * 819
   ORDER BY pg_relation_size(i. indexrelid) / nullif(idx_scan, 0) DESC NULLS FIRS pg_relation_size(i.indexrelid) DESC;
 ```
+
+  ![Source](./Indexes-Unused.png)

@@ -2,6 +2,8 @@
 
 ## [Databases](./databases/)
 
+- [Postgres](./databases/postgres/postgres.md)
+
 ## [Linux](./linux/)
 
 - [Linux networking](linux/networking)

@@ -1,6 +1,8 @@
 # notes
 
-## [Linux](linux)
+## [Databases](./databases/)
+
+## [Linux](./linux/)
 
 - [Linux networking](linux/networking)
   - [config](linux/networking/config.md)

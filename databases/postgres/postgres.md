@@ -49,7 +49,7 @@ then
   ) ORDER BY indrelid;
   ```
   
-  ![Source](./Indexes-Monitoring_1.png)
+  ![Source](./assets/Indexes-Monitoring_1.png)
 
   - V2
 
@@ -65,7 +65,7 @@ then
   ORDER BY idstat.relname, indexrelname;
   ```
 
-  ![Source](./Indexes-Monitoring_2.png)
+  ![Source](./assets/Indexes-Monitoring_2.png)
 
 - Unused indexes
 
@@ -79,4 +79,4 @@ SELECT
   ORDER BY pg_relation_size(i. indexrelid) / nullif(idx_scan, 0) DESC NULLS FIRS pg_relation_size(i.indexrelid) DESC;
 ```
 
-  ![Source](./Indexes-Unused.png)
+  ![Source](./assets/Indexes-Unused.png)

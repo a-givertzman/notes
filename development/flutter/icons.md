@@ -2,6 +2,9 @@
 
 ## Icons made by comunity
 
-- [Beautiful & consistent icons](https://lucide.dev/icons/)
+- [Lucide icon packages](https://lucide.dev/icons/)
 
-- [Iconify](https://andronasef.github.io/iconify_flutter/)
+- [Iconify Flutter Package](https://andronasef.github.io/iconify_flutter/)
+    ```bash
+    $ flutter pub add iconify_flutter
+    ```

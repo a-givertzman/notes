@@ -1,9 +1,5 @@
 # notes
 
-## [Databases](./databases/)
-
-- [Postgres](./databases/postgres/postgres.md)
-
 ## [Linux](./linux/)
 
 - [Linux networking](linux/networking)
@@ -23,24 +19,43 @@
     - [web site](https://launchpad.net/onboard)
     - [sorce code (python)](https://bazaar.launchpad.net/~onboard/onboard/trunk/files)
 
-## [Rust](rust)
+## [Development](development)
 
-## [Rust embedded](rust/embedded)
+### [Databases](development/databases/)
 
-- [**stm32**](rust/embedded/stm32/stm32.md)  
-    [examples](rust/embedded/stm32/stm32.md)
+  - [Postgres](development/databases/postgres/postgres.md)
 
-- [**esp32**](rust/embedded/esp32/esp32.md)
+### [Rust](development/rust)
+
+#### [Rust embedded](development/rust/embedded)
+
+- [**stm32**](development/rust/embedded/stm32/stm32.md)  
+    [examples](development/rust/embedded/stm32/stm32.md)
+
+- [**esp32**](development/rust/embedded/esp32/esp32.md)
 
 - [The Rusty High-speed Probe (Debug (SWD) and JTAG protocol)](https://github.com/probe-rs/hs-probe)
 
-- [RTIC](rust/embedded/rtic/rtic.md)
+- [RTIC](development/rust/embedded/rtic/rtic.md)
 
-## [ML](ml)
+### [ML](development/ml)
 
-### [OpenCV](ml/opencv)
+#### [OpenCV](development/ml/opencv)
 
-- [OpenCV](ml/opencv/opencv.md)
+- [OpenCV](development/ml/opencv/opencv.md)
+
+### [Git](development/git)
+
+- [Overview](development/git/git.md)
+
+### [Memory check](development/rust/memory_check)
+
+- [**valgrind**](development/rust/memory_check/valgrind.md)  
+
+
+## [DSP](dsp)
+
+- [Image processing](dsp/image-processing.md)
 
 ## [Electronisc](electronics)
 
@@ -49,10 +64,3 @@
 - [Analog filters](electronics/analog-filters)
   - [Active low pass filter](electronics/analog-filters/low-pass-filter.md)
 
-## [Git](git)
-
-- [Overview](git/git.md)
-
-## [Memory check](rust/memory_check)
-
-- [**valgrind**](rust/memory_check/valgrind.md)  

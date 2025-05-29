@@ -27,9 +27,9 @@
 
 ### [Rust](development/rust)
 
-#### [Rust embedded](development/rust/embedded)
-
 #### [Rust macros](development/rust/macros/macros.md)
+
+#### [Rust embedded](development/rust/embedded)
 
 - [**stm32**](development/rust/embedded/stm32/stm32.md)  
     [examples](development/rust/embedded/stm32/stm32.md)

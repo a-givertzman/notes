@@ -9,7 +9,7 @@
 
 - [Linux I2C Utils](linux/i2c-tools.md)
 
-- Linux Audio Utils
+- [Linux Audio Utils](linux/audio)
   - [Helvum](linux/audio/helvum.md)
   - [SoX audio tool](linux/audio/audio-sox.md)
 

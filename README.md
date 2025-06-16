@@ -10,7 +10,8 @@
 - [Linux I2C Utils](linux/i2c-tools.md)
 
 - Linux Audio Utils
-  - [SoX audio tool](linux/audio-sox.md)
+  - [Helvum](linux/audio/helvum.md)
+  - [SoX audio tool](linux/audio/audio-sox.md)
 
 - [Linux dconf](linux/dconf.md) low-level configuration system
 
